@@ -1,6 +1,6 @@
 export const banner = [
-  "http://localhost:5173/e-learning-01.jpg",
-  "http://localhost:5173/blended-learning-01.jpg",
+  "http://117.6.133.148:8088/e-learning-01.jpg",
+  "http://117.6.133.148:8088/blended-learning-01.jpg",
 ];
 
 export const provinces = [
