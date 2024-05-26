@@ -1,0 +1,19 @@
+<svg width="108" height="142" viewBox="0 0 108 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M68 16H40V22H68V16ZM92 22H98C100.209 22 102 23.7909 102 26V132C102 134.209 100.209 136 98 136H26C14.9543 136 6 127.046 6 116V26C6 23.7909 7.79086 22 10 22H16V16H10C4.47715 16 0 20.4772 0 26V116C0 130.359 11.6406 142 26 142H98C103.523 142 108 137.523 108 132V26C108 20.4772 103.523 16 98 16H92V22Z" fill="black"/>
+<mask id="path-2-inside-1_2445_2304" fill="white">
+<rect x="68" y="10" width="24" height="18" rx="4"/>
+</mask>
+<rect x="68" y="10" width="24" height="18" rx="4" stroke="black" stroke-width="12" mask="url(#path-2-inside-1_2445_2304)"/>
+<mask id="path-3-inside-2_2445_2304" fill="white">
+<rect x="16" y="10" width="24" height="18" rx="4"/>
+</mask>
+<rect x="16" y="10" width="24" height="18" rx="4" stroke="black" stroke-width="12" mask="url(#path-3-inside-2_2445_2304)"/>
+<rect x="24" width="8" height="16" rx="4" fill="black"/>
+<rect x="76" width="8" height="16" rx="4" fill="black"/>
+<circle cx="65" cy="52" r="5" fill="#57B2C3" stroke="black" stroke-width="4"/>
+<path d="M63.5857 68.469C63.9372 67.6758 65.0628 67.6758 65.4143 68.469L73.5563 86.8449C73.8493 87.5061 73.3652 88.25 72.642 88.25H56.358C55.6348 88.25 55.1507 87.5061 55.4437 86.8449L63.5857 68.469Z" stroke="black" stroke-width="6"/>
+<path d="M46.0751 57.1423C46.4147 56.3158 47.5852 56.3158 47.9249 57.1423L60.1428 86.8699C60.4133 87.5279 59.9294 88.25 59.2179 88.25H34.7821C34.0706 88.25 33.5867 87.5279 33.8572 86.8699L46.0751 57.1423Z" fill="#DCF9FF" stroke="black" stroke-width="6"/>
+<line x1="40" y1="103" x2="68" y2="103" stroke="black" stroke-width="6" stroke-linecap="round"/>
+<line x1="45" y1="113" x2="63" y2="113" stroke="black" stroke-width="6" stroke-linecap="round"/>
+<path d="M3.5 109C4.27711 111.403 8.45382 115.22 20.8721 115.83C22.1743 115.893 23.1195 117.129 22.8775 118.41C21.4992 125.709 21.4129 137.382 29.5 139" stroke="black" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="135" height="99" viewBox="0 0 135 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="83" cy="47" r="11.5692" stroke="black" stroke-width="6.86152"/>
+<path d="M83.39 70C69.1299 70 63.404 80.0597 61.6464 88.456C60.8958 92.0416 63.9328 95 67.5961 95H99.3484C103.035 95 106.08 92.0049 105.287 88.4043C103.442 80.0185 97.6209 70 83.39 70Z" stroke="black" stroke-width="6.86152" stroke-linecap="round"/>
+<path d="M117.455 32.7567C118.274 31.825 119.726 31.825 120.545 32.7567L129.849 43.3319C131.019 44.6617 130.075 46.75 128.304 46.75H109.696C107.925 46.75 106.981 44.6617 108.151 43.3319L117.455 32.7567Z" fill="#ECF2F8" stroke="black" stroke-width="6.86152"/>
+<path d="M14.4545 46.7567C15.2742 45.825 16.7258 45.825 17.5455 46.7567L26.8492 57.3319C28.0191 58.6617 27.0749 60.75 25.3037 60.75H6.69625C4.92509 60.75 3.98086 58.6617 5.15077 57.3319L14.4545 46.7567Z" fill="#ECF2F8" stroke="#0075FF" stroke-width="6.86152"/>
+<path d="M46.5242 4.51771C47.3325 3.68647 48.6675 3.68646 49.4758 4.51771L58.4594 13.7565C59.7282 15.0614 58.8037 17.25 56.9836 17.25H39.0164C37.1963 17.25 36.2718 15.0614 37.5406 13.7565L46.5242 4.51771Z" fill="#ECF2F8" stroke="#0075FF" stroke-width="6.86152"/>
+<line x1="112.431" y1="47.4308" x2="112.431" y2="62.5692" stroke="black" stroke-width="6.86152" stroke-linecap="round"/>
+<line x1="41.4308" y1="18.4308" x2="41.4308" y2="71.5692" stroke="#0075FF" stroke-width="6.86152" stroke-linecap="round"/>
+<line x1="125.431" y1="47.4308" x2="125.431" y2="77.5692" stroke="black" stroke-width="6.86152" stroke-linecap="round"/>
+<line x1="22.4308" y1="61.4308" x2="22.4308" y2="91.5692" stroke="#0075FF" stroke-width="6.86152" stroke-linecap="round"/>
+<line x1="54.4308" y1="18.4308" x2="54.4308" y2="44.5692" stroke="#0075FF" stroke-width="6.86152" stroke-linecap="round"/>
+<line x1="54.4308" y1="55.4308" x2="54.4308" y2="62.5692" stroke="#0075FF" stroke-width="6.86152" stroke-linecap="round"/>
+<rect x="116" y="41" width="6" height="12" fill="#ECF2F8"/>
+<rect x="13" y="55" width="6" height="12" fill="#ECF2F8"/>
+<rect x="45" y="12" width="6" height="11" fill="#ECF2F8"/>
+</svg>
