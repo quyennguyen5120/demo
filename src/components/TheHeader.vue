@@ -11,37 +11,37 @@
           <li>
             <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
               :class="{ active: active_pa === '/introduce' }">
-              <router-link to="/introduce">Khóa học</router-link>
+              <router-link to="/introduce">Hệ sinh thái</router-link>
             </div>
           </li>
           <li>
             <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
               :class="{ active: active_pa === '/introduce-g1230-math' || active_pa === '/s-writing' }">
-              Dự án sáng tạo
-            </div>
-          </li>
-          <li>
-            <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
-              :class="{ active: active_pa === '/introduce-franchise' }">
-              <router-link to="/introduce-franchise">Diễn đàn</router-link>
-            </div>
-          </li>
-          <li>
-            <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
-              :class="{ active: active_pa === '/consultation-booking' }">
-              Tài nguyên
-            </div>
-          </li>
-          <li>
-            <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
-                 :class="{ active: active_pa === '/consultation-booking1' }">
               Tin tức
             </div>
           </li>
           <li>
             <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
+              :class="{ active: active_pa === '/introduce-franchise' }">
+              <router-link to="/introduce-franchise">Thống kê</router-link>
+            </div>
+          </li>
+          <li>
+            <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
+              :class="{ active: active_pa === '/consultation-booking' }">
+              Đánh giá
+            </div>
+          </li>
+          <li>
+            <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
                  :class="{ active: active_pa === '/consultation-booking1' }">
-              Thông tin liên hệ
+              Diễn đàn
+            </div>
+          </li>
+          <li>
+            <div class="text-xs lg:text-base xl:text-xl leading-snug text-justify text-black hover:text-[#0068B7]"
+                 :class="{ active: active_pa === '/consultation-booking1' }">
+              Tài nguyên
             </div>
           </li>
         </ul>
@@ -53,86 +53,118 @@
                 active: active_el === '/introduce'
               }"
                 class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Khóa học 1
+                Cấp trường
               </router-link>
-              <router-link to="/vision" :class="{ active: active_el === '/vision' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Khóa học 1
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                - Cấp mầm non
               </router-link>
-              <router-link to="/news" :class="{ active: active_el === '/news' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Khóa học 1
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                - Cấp tiểu học
               </router-link>
-              <router-link to="/list-campus" :class="{ active: active_el === '/list-campus' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Khóa học 1
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                - Cấp THCS
+              </router-link>
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                - Cấp THPT
+              </router-link>
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                Cấp huyện
+              </router-link>
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                - Bản đồ HST
+              </router-link>
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                Cấp tỉnh
+              </router-link>
+              <router-link to="/introduce" :class="{
+                active: active_el === '/introduce'
+              }"
+                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
+                - Bản đồ HST
               </router-link>
             </div>
           </div>
           <div class="relative">
             <div class="flex flex-col space-y-4 lg:space-y-6 relative line-menu">
-              <router-link to="/introduce-g1230-math" :class="{ active: active_el == '/introduce-g1230-math' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Dự án sáng tạo
-              </router-link>
-              <router-link :to="'/s-writing'" :class="{ active: active_el === '/s-writing' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Dự án sáng tạo
-              </router-link>
+<!--              <router-link to="/introduce-g1230-math" :class="{ active: active_el == '/introduce-g1230-math' }"-->
+<!--                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Dự án sáng tạo-->
+<!--              </router-link>-->
             </div>
           </div>
           <div class="relative">
             <div class="flex flex-col space-y-4 lg:space-y-6 relative line-menu">
-              <router-link to="/introduce-franchise" :class="{ active: active_el === '/introduce-franchise' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Diễn đàn
-              </router-link>
+<!--              <router-link to="/introduce-franchise" :class="{ active: active_el === '/introduce-franchise' }"-->
+<!--                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Diễn đàn-->
+<!--              </router-link>-->
 
-              <router-link to="/procedure" :class="{ active: active_el === '/procedure' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Diễn đàn
-              </router-link>
+<!--              <router-link to="/procedure" :class="{ active: active_el === '/procedure' }"-->
+<!--                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Diễn đàn-->
+<!--              </router-link>-->
 
-              <router-link to="/consultation" :class="{ active: active_el === '/consultation' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Diễn đàn
-              </router-link>
+<!--              <router-link to="/consultation" :class="{ active: active_el === '/consultation' }"-->
+<!--                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Diễn đàn-->
+<!--              </router-link>-->
             </div>
           </div>
           <div class="relative">
             <div class="flex flex-col space-y-4 lg:space-y-6 relative line-menu">
-              <router-link :to="'/consultation-booking'" :class="{ active: active_el === '/consultation-booking' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                  Tài nguyên
-              </router-link>
-              <router-link to="/briefing" :class="{ active: active_el === '/briefing' }"
-                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Tài nguyên
-              </router-link>
+<!--              <router-link :to="'/consultation-booking'" :class="{ active: active_el === '/consultation-booking' }"-->
+<!--                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                  Tài nguyên-->
+<!--              </router-link>-->
+<!--              <router-link to="/briefing" :class="{ active: active_el === '/briefing' }"-->
+<!--                class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Tài nguyên-->
+<!--              </router-link>-->
             </div>
           </div>
           <div class="relative">
             <div class="flex flex-col space-y-4 lg:space-y-6 relative line-menu">
-              <router-link :to="'/consultation-booking'" :class="{ active: active_el === '/consultation-booking' }"
-                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Tin tức
-              </router-link>
-              <router-link to="/briefing" :class="{ active: active_el === '/briefing' }"
-                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Tin tức
-              </router-link>
+<!--              <router-link :to="'/consultation-booking'" :class="{ active: active_el === '/consultation-booking' }"-->
+<!--                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Tin tức-->
+<!--              </router-link>-->
+<!--              <router-link to="/briefing" :class="{ active: active_el === '/briefing' }"-->
+<!--                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Tin tức-->
+<!--              </router-link>-->
             </div>
           </div>
           <div class="relative">
             <div class="flex flex-col space-y-4 lg:space-y-6 relative line-menu">
-              <router-link :to="'/consultation-booking'" :class="{ active: active_el === '/consultation-booking' }"
-                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-               Thông tin liên hệ
-              </router-link>
-              <router-link to="/briefing" :class="{ active: active_el === '/briefing' }"
-                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">
-                Thông tin liên hệ
-              </router-link>
+<!--              <router-link :to="'/consultation-booking'" :class="{ active: active_el === '/consultation-booking' }"-->
+<!--                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--               Thông tin liên hệ-->
+<!--              </router-link>-->
+<!--              <router-link to="/briefing" :class="{ active: active_el === '/briefing' }"-->
+<!--                           class="not-italic font-normal text-xs lg:text-base xl:text-xl text-justify text-headerGray hover:text-[#0068B7] w-full">-->
+<!--                Thông tin liên hệ-->
+<!--              </router-link>-->
             </div>
           </div>
         </div>
@@ -148,74 +180,12 @@
             <li>
               <router-link @click="showMobile = !showMobile" to="/introduce"
                 class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
-                Khóa học
+                Hệ sinh thái
               </router-link>
               <div class="pt-3 space-y-4 flex flex-col">
                 <router-link @click="showMobile = !showMobile" to="/introduce"
                   class="not-italic font-normal text-xs text-justify text-headerGray">
                   Khóa học 1
-                </router-link>
-                <router-link @click="showMobile = !showMobile" to="/vision"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Khóa học 1
-                </router-link>
-                <router-link @click="showMobile = !showMobile" to="/news"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Khóa học 1
-                </router-link>
-                <router-link @click="showMobile = !showMobile" to="/list-campus"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Khóa học 1
-                </router-link>
-              </div>
-            </li>
-            <li>
-              <p class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
-                Dự án sáng tạo
-              </p>
-              <div class="pt-3 space-y-4 flex flex-col">
-                <router-link @click="showMobile = !showMobile" to="/introduce-g1230-math"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Dự án sáng tạo
-                </router-link>
-                <router-link @click="showMobile = !showMobile" :to="'/s-writing'"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Dự án sáng tạo
-                </router-link>
-              </div>
-            </li>
-            <li>
-              <router-link @click="showMobile = !showMobile" to="/introduce-franchise"
-                class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
-                Diễn đàn
-              </router-link>
-              <div class="pt-3 space-y-4 flex flex-col">
-                <router-link @click="showMobile = !showMobile" to="/introduce-franchise"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Diễn đàn
-                </router-link>
-                <router-link @click="showMobile = !showMobile" to="/procedure"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Diễn đàn
-                </router-link>
-                <router-link @click="showMobile = !showMobile" to="/consultation"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Diễn đàn
-                </router-link>
-              </div>
-            </li>
-            <li>
-              <p class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
-                Tài nguyên
-              </p>
-              <div class="pt-3 space-y-4 flex flex-col">
-                <router-link @click="showMobile = !showMobile" :to="'/consultation-booking'"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Tài nguyên
-                </router-link>
-                <router-link @click="showMobile = !showMobile" :to="'/briefing'"
-                  class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Tài nguyên
                 </router-link>
               </div>
             </li>
@@ -224,29 +194,79 @@
                 Tin tức
               </p>
               <div class="pt-3 space-y-4 flex flex-col">
-                <router-link @click="showMobile = !showMobile" :to="'/consultation-booking'"
-                             class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Tin tức
-                </router-link>
-                <router-link @click="showMobile = !showMobile" :to="'/briefing'"
-                             class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Tin tức
-                </router-link>
+<!--                <router-link @click="showMobile = !showMobile" to="/introduce-g1230-math"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Dự án sáng tạo-->
+<!--                </router-link>-->
+<!--                <router-link @click="showMobile = !showMobile" :to="'/s-writing'"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Dự án sáng tạo-->
+<!--                </router-link>-->
+              </div>
+            </li>
+            <li>
+              <router-link @click="showMobile = !showMobile" to="/introduce-franchise"
+                class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
+                Thống kê
+              </router-link>
+              <div class="pt-3 space-y-4 flex flex-col">
+<!--                <router-link @click="showMobile = !showMobile" to="/introduce-franchise"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Diễn đàn-->
+<!--                </router-link>-->
+<!--                <router-link @click="showMobile = !showMobile" to="/procedure"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Diễn đàn-->
+<!--                </router-link>-->
+<!--                <router-link @click="showMobile = !showMobile" to="/consultation"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Diễn đàn-->
+<!--                </router-link>-->
               </div>
             </li>
             <li>
               <p class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
-                Thông tin liên hệ
+                Đánh giá
               </p>
               <div class="pt-3 space-y-4 flex flex-col">
-                <router-link @click="showMobile = !showMobile" :to="'/consultation-booking'"
-                             class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Thông tin liên hệ
-                </router-link>
-                <router-link @click="showMobile = !showMobile" :to="'/briefing'"
-                             class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Thông tin liên hệ
-                </router-link>
+<!--                <router-link @click="showMobile = !showMobile" :to="'/consultation-booking'"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Tài nguyên-->
+<!--                </router-link>-->
+<!--                <router-link @click="showMobile = !showMobile" :to="'/briefing'"-->
+<!--                  class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Tài nguyên-->
+<!--                </router-link>-->
+              </div>
+            </li>
+            <li>
+              <p class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
+                Diễn đàn
+              </p>
+              <div class="pt-3 space-y-4 flex flex-col">
+<!--                <router-link @click="showMobile = !showMobile" :to="'/consultation-booking'"-->
+<!--                             class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Tin tức-->
+<!--                </router-link>-->
+<!--                <router-link @click="showMobile = !showMobile" :to="'/briefing'"-->
+<!--                             class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Tin tức-->
+<!--                </router-link>-->
+              </div>
+            </li>
+            <li>
+              <p class="text-headerTitleMobile py-[0.375rem] border-b border-headerGray w-fit font-semibold">
+                Tài nguyên
+              </p>
+              <div class="pt-3 space-y-4 flex flex-col">
+<!--                <router-link @click="showMobile = !showMobile" :to="'/consultation-booking'"-->
+<!--                             class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Thông tin liên hệ-->
+<!--                </router-link>-->
+<!--                <router-link @click="showMobile = !showMobile" :to="'/briefing'"-->
+<!--                             class="not-italic font-normal text-xs text-justify text-headerGray">-->
+<!--                  Thông tin liên hệ-->
+<!--                </router-link>-->
               </div>
             </li>
           </ul>
