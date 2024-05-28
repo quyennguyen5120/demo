@@ -185,7 +185,39 @@
               <div class="pt-3 space-y-4 flex flex-col">
                 <router-link @click="showMobile = !showMobile" to="/introduce"
                   class="not-italic font-normal text-xs text-justify text-headerGray">
-                  Khóa học 1
+                  Cấp trường
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                  class="not-italic font-normal text-xs text-justify text-headerGray">
+                  - Cấp mầm non
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  - Cấp tiểu học
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  - Cấp THCS
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  - Cấp THPT
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  Cấp huyện
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  - Bản đồ HST
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  Cấp tỉnh
+                </router-link>
+                <router-link @click="showMobile = !showMobile" to="/introduce"
+                             class="not-italic font-normal text-xs text-justify text-headerGray">
+                  - Bản đồ HST
                 </router-link>
               </div>
             </li>
